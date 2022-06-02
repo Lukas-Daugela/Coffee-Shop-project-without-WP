@@ -1,0 +1,8 @@
+/* Navbar and logo color */
+.coffee-logo {
+  height: 50px;
+}
+
+.navbar {
+  background-color: rgb(238, 107, 0);
+}

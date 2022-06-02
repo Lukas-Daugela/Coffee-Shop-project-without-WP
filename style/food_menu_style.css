@@ -1,0 +1,58 @@
+/* Cards */
+.img-container {
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+}
+
+.food-section .title-container {
+  display: flex;
+}
+
+.food-section .img-1 {
+  background-image: url(../images/cake/cake_1.jpg);
+}
+
+.food-section .img-2 {
+  background-image: url(../images/cake/cake_2.jpg);
+}
+
+.food-section .img-3 {
+  background-image: url(../images/cake/cake_3.jpg);
+}
+
+.food-section .img-4 {
+  background-image: url(../images/cake/cake_4.jpg);
+}
+
+.food-section .img-5 {
+  background-image: url(../images/cake/cake_5.jpg);
+}
+
+.food-section .img-6 {
+  background-image: url(../images/cake/cake_6.jpg);
+}
+
+.food-section .img-7 {
+  background-image: url(../images/cake/cake_7.jpg);
+}
+
+.food-section .img-8 {
+  background-image: url(../images/cake/cake_8.jpg);
+}
+
+.food-section .img-9 {
+  background-image: url(../images/cake/cake_9.jpg);
+}
+
+.food-section .img-10 {
+  background-image: url(../images/cake/cake_10.jpg);
+}
+
+.food-section .img-11 {
+  background-image: url(../images/cake/cake_11.jpg);
+}
+
+.food-section .img-12 {
+  background-image: url(../images/cake/cake_12.jpg);
+}

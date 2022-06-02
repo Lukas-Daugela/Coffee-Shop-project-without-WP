@@ -1,0 +1,92 @@
+/* Showcase Carousel */
+.carousel-item {
+  height: 40rem;
+  color: white;
+}
+
+.carousel-item {
+  background-color: rgb(82, 33, 0);
+}
+
+.carousel-item .container {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 50px;
+  padding-left: 10%;
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.carousel-inner .first {
+  background-image: url(../images/coffee_images/coffe_carousel_test.jpg);
+}
+
+.carousel-inner .second {
+  background-image: url(../images/coffee_images/coffee_background_1.jpg);
+}
+
+.carousel-inner .third {
+  background-image: url(../images/coffee_images/coffee_background_2.jpg);
+}
+
+@media (min-width: 576px) {
+  .slide .carousel-control-prev,
+  .slide .carousel-control-next {
+    width: 5%;
+  }
+}
+
+/* Drinks section with cards */
+.test-drinks-section .card-img {
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+}
+
+.test-drinks-section .img-1 {
+  background-image: url(../images/coffee_images/coffee_cup_5.jpg);
+}
+
+.test-drinks-section .img-2 {
+  background-image: url(../images/coffee_images/coffee_cup_9.jpg);
+}
+
+.test-drinks-section .img-3 {
+  background-image: url(../images/coffee_images/coffee_cup_12.jpg);
+}
+
+/* Food section with cards */
+.test-food-section .card-img {
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+}
+
+.test-food-section .img-1 {
+  background-image: url(../images/cake/cake_2.jpg);
+}
+
+.test-food-section .img-2 {
+  background-image: url(../images/cake/cake_3.jpg);
+}
+
+.test-food-section .img-3 {
+  background-image: url(../images/cake/cake_4.jpg);
+}
+
+/* Owl footer */
+.owl-carousel {
+  background-image: url(../images/3D_owl_carousel.jpg);
+  height: 513px;
+  background-position: center;
+  background-size: cover;
+}

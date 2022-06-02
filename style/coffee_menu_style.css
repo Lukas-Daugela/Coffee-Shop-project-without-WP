@@ -1,0 +1,58 @@
+/* Cards */
+.img-container {
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+}
+
+.drinks-section .title-container {
+  display: flex;
+}
+
+.drinks-section .img-1 {
+  background-image: url(../images/coffee_images/coffee_cup_1.jpg);
+}
+
+.drinks-section .img-2 {
+  background-image: url(../images/coffee_images/coffee_cup_2.jpg);
+}
+
+.drinks-section .img-3 {
+  background-image: url(../images/coffee_images/coffee_cup_3.jpg);
+}
+
+.drinks-section .img-4 {
+  background-image: url(../images/coffee_images/coffee_cup_4.jpg);
+}
+
+.drinks-section .img-5 {
+  background-image: url(../images/coffee_images/coffee_cup_5.jpg);
+}
+
+.drinks-section .img-6 {
+  background-image: url(../images/coffee_images/coffee_cup_6.jpg);
+}
+
+.drinks-section .img-7 {
+  background-image: url(../images/coffee_images/coffee_cup_7.jpg);
+}
+
+.drinks-section .img-8 {
+  background-image: url(../images/coffee_images/coffee_cup_8.jpg);
+}
+
+.drinks-section .img-9 {
+  background-image: url(../images/coffee_images/coffee_cup_9.jpg);
+}
+
+.drinks-section .img-10 {
+  background-image: url(../images/coffee_images/coffee_cup_10.jpg);
+}
+
+.drinks-section .img-11 {
+  background-image: url(../images/coffee_images/coffee_cup_11.jpg);
+}
+
+.drinks-section .img-12 {
+  background-image: url(../images/coffee_images/coffee_cup_12.jpg);
+}

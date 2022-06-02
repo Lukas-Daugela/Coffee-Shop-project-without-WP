@@ -1,0 +1,26 @@
+/* Contacts footer */
+.logo-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
+
+.contact-footer {
+  background-color: #c7c7c7;
+}
+
+.contact-footer a,
+.contact-footer h4 {
+  display: block;
+}
+
+.contact-footer h4 {
+  padding-top: 20px;
+}
+
+.contact-footer a {
+  color: black;
+  padding: 5px 0px 5px 0px;
+  text-decoration: none;
+}
