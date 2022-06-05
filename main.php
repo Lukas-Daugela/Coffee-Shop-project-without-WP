@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style\global_style.css?v=1">
-    <link rel="stylesheet" href="style\main_style.css?v=2">
+    <link rel="stylesheet" href="style\main_style.css?v=3">
     <title>Document</title>
 </head>
 <body>
@@ -33,123 +33,58 @@
       </div>
   </div>
 
-  <!-- Drinks section with cards -->
-  <section class="test-drinks-section">
-    <div class="container">
-      <div class="container pt-4">
-        <h4>Drinks showcase example</h4>
-      </div>
-      <div class="row row-cols-1 row-cols-md-3 py-4 g-4">
+
+  <!-- Menu cards -->
+  <!-- uzdeti tinkamas img, background color, opacity, JS paryskinanti efekta on hover -->
+  <section class="menu-cards">
+    <div class="container mt-4">
+      <div class="row row-cols-1 row-cols-md-3 g-3">
         <div class="col">
-          <div class="card">
-            <div class="card-img img-1"></div>
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Read more</a>
-            </div>
+          <div class="card-bg-img first">
+            <p>Lorem, ipsum dolor.</p>
+            <h2>Lorem, ipsum.</h2>
           </div>
         </div>
 
         <div class="col">
-          <div class="card">
-            <div class="card-img img-2"></div>
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Read more</a>
-            </div>
-          </div>
+        <div class="card-bg-img second">
+          <p>Lorem, ipsum dolor.</p>
+          <h2>Lorem, ipsum.</h2>
+        </div>
         </div>
 
         <div class="col">
-          <div class="card">
-            <div class="card-img img-3"></div>
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Read more</a>
-            </div>
-          </div>
+        <div class="card-bg-img third">
+          <p>Lorem, ipsum dolor.</p>
+          <h2>Lorem, ipsum.</h2>
+        </div>
         </div>
       </div>
-
-      <a
-        class="btn btn-primary menu-button d-block"
-        href="coffee_menu.php"
-      >
-        Open menu
-      </a>
     </div>
   </section>
 
-  <!-- Food section with cards -->
-  <section class="test-food-section">
-    <div class="container">
-      <div class="container pt-4">
-        <h4>Food showcase example</h4>
-      </div>
-      <div class="row row-cols-1 row-cols-md-3 py-4 g-4">
+  <!-- Text with Photo's -->
+  <section class="text-and-img">
+    <div class="container mt-4">
+      <div class="row row-cols-1 row-cols-md-3 g-3">
+        <div class="col text">
+          <h2>Lorem ipsum dolor sit amet.</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis accusantium porro sequi error animi mollitia.</p>
+          <div class="btn btn-primary">Read more</div>
+        </div>
+        
         <div class="col">
-          <div class="card">
-            <div class="card-img img-1"></div>
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Read more</a>
-            </div>
-          </div>
+          <div class="img-container img1"></div>
         </div>
 
         <div class="col">
-          <div class="card">
-            <div class="card-img img-2"></div>
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Read more</a>
-            </div>
-          </div>
+          <div class="img-container img2"></div>
         </div>
-
-        <div class="col">
-          <div class="card">
-            <div class="card-img img-3"></div>
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Read more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <a
-        class="btn btn-primary menu-button d-block"
-        href="food_menu.php"
-      >
-        Open menu
-      </a>
+    </div>
     </div>
   </section>
+
+
 
   <!-- Owl carousel -->
   <section>

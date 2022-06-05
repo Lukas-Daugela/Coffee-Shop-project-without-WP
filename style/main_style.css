@@ -26,42 +26,61 @@
   }
 }
 
-/* Drinks section with cards */
-.test-drinks-section .card-img {
+/* Menu cards */
+.menu-cards .card-bg-img {
   background-position: center;
   background-size: cover;
-  height: 280px;
+  display: flex;
+  height: 260px;
+  flex-direction: column;
+  color: white;
+  align-items: center;
 }
 
-.test-drinks-section .img-1 {
-  background-image: url(../images/coffee_images/coffee_cup_5.jpg);
+.menu-cards p {
+  margin-top: auto;
+  margin-bottom: 0;
 }
 
-.test-drinks-section .img-2 {
-  background-image: url(../images/coffee_images/coffee_cup_9.jpg);
+.menu-cards .first {
+  background-image: url(../images/coffee_images/coffee_cup_1.jpg);
 }
 
-.test-drinks-section .img-3 {
-  background-image: url(../images/coffee_images/coffee_cup_12.jpg);
+.menu-cards .second {
+  background-image: url(../images/coffee_images/coffee_cup_2.jpg);
 }
 
-/* Food section with cards */
-.test-food-section .card-img {
+.menu-cards .third {
+  background-image: url(../images/coffee_images/coffee_cup_3.jpg);
+}
+
+/* Text with Photo's */
+.text-and-img {
+}
+
+.text-and-img .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.text-and-img .col,
+.text-and-img .img-container {
+  height: 300px;
+}
+
+.text-and-img .img-container {
   background-position: center;
-  background-size: cover;
-  height: 280px;
+  background-size: center;
 }
 
-.test-food-section .img-1 {
-  background-image: url(../images/cake/cake_2.jpg);
+.text-and-img .img1 {
+  background-image: url(../images/lounge_2.jpg);
 }
 
-.test-food-section .img-2 {
-  background-image: url(../images/cake/cake_3.jpg);
-}
-
-.test-food-section .img-3 {
-  background-image: url(../images/cake/cake_4.jpg);
+.text-and-img .img2 {
+  background-image: url(../images/lounge_2.jpg);
 }
 
 /* Owl footer */
