@@ -1,47 +1,28 @@
 /* Showcase Carousel */
-.carousel-item {
-  height: 40rem;
+.showcase-img {
+  background-image: url(../images/coffee_images/coffee_background_1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
   color: white;
 }
 
-.carousel-item {
-  background-color: rgb(82, 33, 0);
+.showcase-img .colona {
+  display: flex;
+  align-items: center;
+  height: 95%;
+  padding: 0px 10px;
 }
 
-.carousel-item .container {
-  position: absolute;
-  bottom: 0;
-  padding-bottom: 50px;
-  padding-left: 10%;
+.text_container {
+  justify-content: center;
 }
 
-.overlay-image {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  background-position: center;
-  background-size: cover;
-  opacity: 0.8;
-}
-
-.carousel-inner .first {
-  background-image: url(../images/coffee_images/coffe_carousel_test.jpg);
-}
-
-.carousel-inner .second {
-  background-image: url(../images/coffee_images/coffee_background_1.jpg);
-}
-
-.carousel-inner .third {
-  background-image: url(../images/coffee_images/coffee_background_2.jpg);
-}
-
-@media (min-width: 576px) {
-  .slide .carousel-control-prev,
-  .slide .carousel-control-next {
-    width: 5%;
+@media (min-width: 768px) {
+  .showcase-img .colona {
+    width: 50%;
+    margin-left: auto;
+    margin-top: 5%;
   }
 }
 
