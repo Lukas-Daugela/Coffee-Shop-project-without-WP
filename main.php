@@ -10,8 +10,9 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style\global_style.css?v=1">
-    <link rel="stylesheet" href="style\main_style.css?v=3">
+    <link rel="stylesheet" href="style\main_style.css?v=4">
     <title>Document</title>
 </head>
 <body>
@@ -63,6 +64,7 @@
     </div>
   </section>
 
+
   <!-- Text with Photo's -->
   <section class="text-and-img">
     <div class="container mt-4">
@@ -84,6 +86,83 @@
     </div>
   </section>
 
+
+  <!-- Discound card section -->
+  <section class="discount-card">
+    <div class="container my-4">
+      <div class="row row-cols-1 row-cols-md-2 g-3">
+        <div class="col">
+          <div class="text text-center">
+            <h2>Get your discount card</h2>
+            <div class="card-img my-2"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aperiam culpa iste veritatis soluta minima error magni quos? Culpa, earum?</p>
+            <div class="btn btn-primary">Get now</div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="img"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Coffee shop good properties cards -->
+  <section class="cards-section">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-4 g-3">
+        <div class="col">
+          <div class="card text-center">
+            <p class="icon"><i class="bi bi-cup-straw"></i></p>
+            <h4>High Quality</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, mollitia.</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card text-center">
+            <p class="icon"><i class="bi bi-cup-straw"></i></p>
+            <h4>High Quality</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, mollitia.</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card text-center">
+            <p class="icon"><i class="bi bi-cup-straw"></i></p>
+            <h4>High Quality</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, mollitia.</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card text-center">
+            <p class="icon"><i class="bi bi-cup-straw"></i></p>
+            <h4>High Quality</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, mollitia.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Booking form -->
+  <section class="booking-section">
+    <div class="container my-4">
+      <div class="form-box">
+        <form action="" class="booking-form">
+          <div class="form-container">
+            <h2>Contact us <br> <span>for booking a table</span></h2>
+            <input type="text" class="input" placeholder="Name"><br>
+            <input type="text" class="input" placeholder="Phone"><br>
+            <input type="text" class="input" placeholder="Comment"><br>
+            <div class="btn btn-primary">Book Now</div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
 
 
   <!-- Owl carousel -->

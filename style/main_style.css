@@ -83,6 +83,82 @@
   background-image: url(../images/lounge_2.jpg);
 }
 
+/* Discound card section */
+
+.discount-card .img {
+  background-image: url(../images/coffee_images/coffee_cup_3.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+.discount-card .text {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.discount-card p {
+  width: 40ch;
+}
+
+.discount-card .card-img {
+  background-image: url(../images/discount\ card.png);
+  background-position: center;
+  background-size: cover;
+  height: 80px;
+  width: 122px;
+}
+
+/* Coffee shop good properties cards */
+.cards-section .icon {
+  font-size: 50px;
+  margin: 0;
+}
+
+/* Booking form */
+/* Sutvarkyti fiksuota dydi ir su media padaryti responsive */
+.booking-form .form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #111111;
+  padding: 80px 50px;
+  border-radius: 20px;
+}
+
+.booking-section .form-box {
+  padding: 50px;
+  background-color: #111111;
+}
+
+.booking-form .input,
+.booking-form .btn {
+  padding: 20px 50px;
+  border-radius: 35px;
+}
+
+.booking-section {
+  background-image: url(../images/coffee_images/coffe_black_background.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.booking-section .container {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: right;
+  margin-right: 15%;
+}
+
+.booking-form .btn {
+  align-items: center;
+}
+
 /* Owl footer */
 .owl-carousel {
   background-image: url(../images/3D_owl_carousel.jpg);
