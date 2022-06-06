@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style\global_style.css?v=1">
-    <link rel="stylesheet" href="style\main_style.css?v=4">
+    <link rel="stylesheet" href="style\main_style.css?v=5">
     <title>Document</title>
 </head>
 <body>
@@ -72,6 +72,7 @@
         <div class="col text">
           <h2>Lorem ipsum dolor sit amet.</h2>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis accusantium porro sequi error animi mollitia.</p>
+          <!-- mygtukas nukelia i photo galery puslapi -->
           <div class="btn btn-primary">Read more</div>
         </div>
         
@@ -165,12 +166,70 @@
   </section>
 
 
-  <!-- Owl carousel -->
-  <section>
-    <div class="container pt-4">
-      <h4>3D Owl carousel for coffee shop photos</h4>
+  <!-- About -->
+  <section class="about-section">
+    <div class="container my-4">
+      <div class="row row-cols-1 row-cols-md-3 g-3">
+        <div class="col about-col">
+          <div class="text">
+            <h2>About our <br> coffee shop</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum rem necessitatibus iure non facere veniam, officiis dignissimos maiores nisi autem?</p>
+          </div>
+          <div class="btn btn-primary">Read more</div>
+        </div>
+
+        <div class="col opening-hours">
+          <h4>Opening Hours</h4>
+          <p><span>Monday:</span> 9:00-21:00</p>
+          <p><span>Tuesday:</span> 9:00-21:00</p>
+          <p><span>Wednesday:</span> 9:00-21:00</p>
+          <p><span>Thursday:</span> 9:00-21:00</p>
+          <p><span>Friday:</span> 9:00-21:00</p>
+          <p><span>Saturday:</span> 11:00-17:00</p>
+          <p><span>Sunday:</span> CLOSED</p>
+        </div>
+
+        <div class="photo"></div>
+      </div>
     </div>
-    <div class="owl-carousel"></div>
+  </section>
+
+
+  <!-- Feedback -->
+  <section class="feedback-section">
+    <div class="container">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="slides first-slide text-center">
+              <h2>What our clients say</h2>
+              <div class="underline"></div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit a minima quam quae vitae nobis consequuntur ullam impedit, odit iusto non tempore facilis velit mollitia perferendis voluptate obcaecati quas corrupti. <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, rerum? Quia ad, nulla iusto minima est expedita quo? Nesciunt quae amet maxime fugiat minima fugit eligendi est! Eius, quaerat voluptatem!
+              </p>
+              <div class="person-img"></div>
+              <p class="person-name">Tomas, Tomaitis</p>
+              <p class="post-date">June 15 2022</p>
+            </div>
+          </div>
+          <!-- <div class="carousel-item">
+            <img class="d-block w-100" src="..." alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="..." alt="Third slide">
+          </div> -->
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
   </section>
 
 </body>

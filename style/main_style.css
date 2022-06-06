@@ -159,10 +159,65 @@
   align-items: center;
 }
 
-/* Owl footer */
-.owl-carousel {
-  background-image: url(../images/3D_owl_carousel.jpg);
-  height: 513px;
+/* Photo galery */
+.about-section .photo {
+  background-image: url(../images/cake/cake_11.jpg);
   background-position: center;
   background-size: cover;
+  height: 370px;
+}
+
+.about-section span {
+  color: #af751e;
+}
+
+.about-section p {
+  font-size: 1.3rem;
+}
+
+.about-section h4 {
+  font-size: 1.8rem;
+}
+
+@media (min-width: 992px) {
+  .about-section .opening-hours {
+    width: 28%;
+  }
+}
+
+.about-section .row {
+  justify-content: center;
+}
+
+.about-section .about-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.about-section h2 {
+  font-size: 3rem;
+}
+
+/* Feedback */
+.feedback-section {
+  background-image: url(../images/felipe-santana-xJkTCbtuqAY-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  color: white;
+}
+
+.feedback-section .slides {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  height: 800px;
+}
+
+.feedback-section .first-slide {
+  height: 800px;
 }
