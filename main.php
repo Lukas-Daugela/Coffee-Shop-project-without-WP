@@ -11,8 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style\global_style.css?v=1">
-    <link rel="stylesheet" href="style\main_style.css?v=9">
+    <link rel="stylesheet" href="style/style.css?v=1">
     <title>Document</title>
 </head>
 <body>
@@ -30,7 +29,7 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
             deserunt velit provident corrupti earum quis!
           </p>
-          <div class="btn btn-primary">read more</div>
+          <div class="btn btn-primary">Read more</div>
         </div>
       </div>
   </div>
