@@ -1,4 +1,4 @@
-/* Showcase Carousel */
+/* Showcase */
 .showcase-img {
   background-image: url(../images/coffee_images/coffee_background_1.jpg);
   background-position: center;
@@ -27,14 +27,20 @@
 }
 
 /* Menu cards */
+.menu-cards {
+  background-color: #200e02;
+}
+
 .menu-cards .card-bg-img {
   background-position: center;
   background-size: cover;
   display: flex;
-  height: 260px;
+  height: 350px;
   flex-direction: column;
   color: white;
   align-items: center;
+  opacity: 0.7;
+  justify-content: end;
 }
 
 .menu-cards p {
@@ -55,9 +61,6 @@
 }
 
 /* Text with Photo's */
-.text-and-img {
-}
-
 .text-and-img .text {
   display: flex;
   flex-direction: column;
@@ -84,7 +87,6 @@
 }
 
 /* Discound card section */
-
 .discount-card .img {
   background-image: url(../images/coffee_images/coffee_cup_3.jpg);
   background-position: center;
@@ -123,14 +125,13 @@
 .booking-form .form-container {
   display: flex;
   flex-direction: column;
-  background-color: #111111;
-  padding: 80px 50px;
-  border-radius: 20px;
+  background-color: #105424;
+  padding: 60px 15px;
 }
 
 .booking-section .form-box {
-  padding: 50px;
-  background-color: #111111;
+  padding: 10px;
+  background-color: #105424;
 }
 
 .booking-form .input,
@@ -151,12 +152,25 @@
   height: 100vh;
   align-items: center;
   display: flex;
-  justify-content: right;
-  margin-right: 15%;
+  justify-content: center;
 }
 
 .booking-form .btn {
   align-items: center;
+}
+
+@media (min-width: 768px) {
+  .booking-section .container {
+    justify-content: right;
+    margin-right: 15%;
+  }
+  .booking-section .form-box {
+    padding: 20px;
+  }
+  .booking-form .form-container {
+    padding: 65px 50px;
+    border-radius: 20px;
+  }
 }
 
 /* Photo galery */
@@ -209,6 +223,13 @@
   color: white;
 }
 
+.feedback-section .underline {
+  height: 2px;
+  width: 100px;
+  background-color: #af751e;
+  margin-bottom: 5%;
+}
+
 .feedback-section .slides {
   display: flex;
   flex-direction: column;
@@ -216,8 +237,36 @@
   width: 80%;
   margin: auto;
   height: 800px;
+  align-items: center;
 }
 
-.feedback-section .first-slide {
-  height: 800px;
+.feedback-section .person-name {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.feedback-section h2 {
+  font-size: 3rem;
+}
+
+.feedback-section .carousel-control-next-icon,
+.feedback-section .carousel-control-prev-icon {
+  background-color: #0f0f0fc9;
+}
+
+.feedback-section .person-img {
+  /* prideti random zmoniu generatoriu ir isimt photo ir vardus*/
+  background-image: url(../images/avatar.png);
+  background-position: center;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin: 15px 0 50px 0;
+}
+
+@media (min-width: 768px) {
+  .feedback-section,
+  .feedback-section .slides {
+    height: 600px;
+  }
 }

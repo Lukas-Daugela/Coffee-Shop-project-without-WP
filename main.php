@@ -12,10 +12,11 @@
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style\global_style.css?v=1">
-    <link rel="stylesheet" href="style\main_style.css?v=5">
+    <link rel="stylesheet" href="style\main_style.css?v=8">
     <title>Document</title>
 </head>
 <body>
+
 
   <!-- Showcase -->
   <div class="showcase-img">
@@ -38,27 +39,33 @@
   <!-- Menu cards -->
   <!-- uzdeti tinkamas img, background color, opacity, JS paryskinanti efekta on hover -->
   <section class="menu-cards">
-    <div class="container mt-4">
-      <div class="row row-cols-1 row-cols-md-3 g-3">
+    <div class="container p-5">
+      <div class="row row-cols-1 row-cols-lg-3 g-3">
         <div class="col">
           <div class="card-bg-img first">
-            <p>Lorem, ipsum dolor.</p>
-            <h2>Lorem, ipsum.</h2>
+            <div class="card-text text-center">
+              <p>Lorem, ipsum dolor.</p>
+              <h2>Lorem, ipsum.</h2>
+            </div>
           </div>
         </div>
 
         <div class="col">
-        <div class="card-bg-img second">
-          <p>Lorem, ipsum dolor.</p>
-          <h2>Lorem, ipsum.</h2>
-        </div>
+          <div class="card-bg-img second">
+          <div class="card-text text-center">
+              <p>Lorem, ipsum dolor.</p>
+              <h2>Lorem, ipsum.</h2>
+            </div>
+          </div>
         </div>
 
         <div class="col">
-        <div class="card-bg-img third">
-          <p>Lorem, ipsum dolor.</p>
-          <h2>Lorem, ipsum.</h2>
-        </div>
+          <div class="card-bg-img third">
+          <div class="card-text text-center">
+              <p>Lorem, ipsum dolor.</p>
+              <h2>Lorem, ipsum.</h2>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -67,7 +74,7 @@
 
   <!-- Text with Photo's -->
   <section class="text-and-img">
-    <div class="container mt-4">
+    <div class="container pt-4">
       <div class="row row-cols-1 row-cols-md-3 g-3">
         <div class="col text">
           <h2>Lorem ipsum dolor sit amet.</h2>
@@ -90,7 +97,7 @@
 
   <!-- Discound card section -->
   <section class="discount-card">
-    <div class="container my-4">
+    <div class="container py-4">
       <div class="row row-cols-1 row-cols-md-2 g-3">
         <div class="col">
           <div class="text text-center">
@@ -110,7 +117,7 @@
 
   <!-- Coffee shop good properties cards -->
   <section class="cards-section">
-    <div class="container">
+    <div class="container pb-4">
       <div class="row row-cols-1 row-cols-md-4 g-3">
         <div class="col">
           <div class="card text-center">
@@ -150,11 +157,11 @@
 
   <!-- Booking form -->
   <section class="booking-section">
-    <div class="container my-4">
+    <div class="container py-4">
       <div class="form-box">
         <form action="" class="booking-form">
           <div class="form-container">
-            <h2>Contact us <br> <span>for booking a table</span></h2>
+            <h2 class="text-center mb-4">Contact us <br> <span>for booking a table</span></h2>
             <input type="text" class="input" placeholder="Name"><br>
             <input type="text" class="input" placeholder="Phone"><br>
             <input type="text" class="input" placeholder="Comment"><br>
@@ -168,7 +175,7 @@
 
   <!-- About -->
   <section class="about-section">
-    <div class="container my-4">
+    <div class="container py-4">
       <div class="row row-cols-1 row-cols-md-3 g-3">
         <div class="col about-col">
           <div class="text">
@@ -203,7 +210,7 @@
           <div class="carousel-item active">
             <div class="slides first-slide text-center">
               <h2>What our clients say</h2>
-              <div class="underline"></div>
+              <div class="d-flex underline"></div>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit a minima quam quae vitae nobis consequuntur ullam impedit, odit iusto non tempore facilis velit mollitia perferendis voluptate obcaecati quas corrupti. <br>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, rerum? Quia ad, nulla iusto minima est expedita quo? Nesciunt quae amet maxime fugiat minima fugit eligendi est! Eius, quaerat voluptatem!
@@ -213,20 +220,42 @@
               <p class="post-date">June 15 2022</p>
             </div>
           </div>
-          <!-- <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Second slide">
-          </div>
+
           <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Third slide">
-          </div> -->
+            <div class="slides first-slide text-center">
+              <h2>What our clients say</h2>
+              <div class="d-flex underline"></div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit a minima quam quae vitae nobis consequuntur ullam impedit, odit iusto non tempore facilis velit mollitia perferendis voluptate obcaecati quas corrupti.
+              </p>
+              <div class="person-img"></div>
+              <p class="person-name">Tomas, Tomaitis</p>
+              <p class="post-date">June 15 2022</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="slides first-slide text-center">
+              <h2>What our clients say</h2>
+              <div class="d-flex underline"></div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse libero explicabo dolorum, impedit unde maiores. <br>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione voluptatibus explicabo consequatur harum quam labore quisquam vitae est, corporis aut veritatis sapiente nam, laudantium consectetur?
+              </p>
+              <div class="person-img"></div>
+              <p class="person-name">Tomas, Tomaitis</p>
+              <p class="post-date">June 15 2022</p>
+            </div>
+          </div>
+
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
+          <span class="sr-only"></span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
+          <span class="sr-only"></span>
         </a>
       </div>
     </div>
