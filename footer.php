@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style\global_style.css">
-    <link rel="stylesheet" href="style\footer_style.css">
+    <link rel="stylesheet" href="style\footer_style.css?v=1">
     <title>Document</title>
 </head>
 <body>
@@ -38,7 +38,7 @@
     ></script>
     
     <!-- Footer logo -->
-    <section>
+    <section class="footer-section">
       <hr class="m-0" />
       <div class="container logo-container text-center">
         <a class="navbar-brand" href="#">

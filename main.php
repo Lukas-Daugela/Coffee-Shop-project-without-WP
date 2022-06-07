@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style\global_style.css?v=1">
-    <link rel="stylesheet" href="style\main_style.css?v=8">
+    <link rel="stylesheet" href="style\main_style.css?v=9">
     <title>Document</title>
 </head>
 <body>
@@ -39,7 +39,7 @@
   <!-- Menu cards -->
   <!-- uzdeti tinkamas img, background color, opacity, JS paryskinanti efekta on hover -->
   <section class="menu-cards">
-    <div class="container p-5">
+    <div class="container py-5">
       <div class="row row-cols-1 row-cols-lg-3 g-3">
         <div class="col">
           <div class="card-bg-img first">
@@ -97,17 +97,17 @@
 
   <!-- Discound card section -->
   <section class="discount-card">
-    <div class="container py-4">
-      <div class="row row-cols-1 row-cols-md-2 g-3">
-        <div class="col">
+    <div class="container py-5">
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col text-col">
           <div class="text text-center">
             <h2>Get your discount card</h2>
             <div class="card-img my-2"></div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aperiam culpa iste veritatis soluta minima error magni quos? Culpa, earum?</p>
-            <div class="btn btn-primary">Get now</div>
+            <div class="btn btn-primary button">Get now</div>
           </div>
         </div>
-        <div class="col">
+        <div class="col img-col">
           <div class="img"></div>
         </div>
       </div>

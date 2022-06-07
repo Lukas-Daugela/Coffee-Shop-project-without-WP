@@ -1,3 +1,9 @@
+/* Buttons */
+.btn-primary {
+  background-color: #af751e !important;
+  border-color: #af751e !important;
+}
+
 /* Showcase */
 .showcase-img {
   background-image: url(../images/coffee_images/coffee_background_1.jpg);
@@ -61,6 +67,11 @@
 }
 
 /* Text with Photo's */
+.text-and-img {
+  background-color: #200e02;
+  color: white;
+}
+
 .text-and-img .text {
   display: flex;
   flex-direction: column;
@@ -87,6 +98,20 @@
 }
 
 /* Discound card section */
+.discount-card .text-col {
+  background-color: #321604;
+  padding: 45px 0;
+}
+
+.discount-card .img-col {
+  padding: 0;
+}
+
+.discount-card {
+  background-color: #200e02;
+  color: white;
+}
+
 .discount-card .img {
   background-image: url(../images/coffee_images/coffee_cup_3.jpg);
   background-position: center;
@@ -115,9 +140,26 @@
 }
 
 /* Coffee shop good properties cards */
+.cards-section {
+  padding-bottom: 50px;
+  background-color: #200e02;
+  color: white;
+}
+
 .cards-section .icon {
+  color: #af751e;
   font-size: 50px;
   margin: 0;
+}
+
+.cards-section .card {
+  background-color: #4e1f00;
+  justify-content: center;
+  height: 250px;
+}
+
+.cards-section p {
+  color: #6c757d;
 }
 
 /* Booking form */
@@ -125,13 +167,13 @@
 .booking-form .form-container {
   display: flex;
   flex-direction: column;
-  background-color: #105424;
+  background-color: #4e1f00;
   padding: 60px 15px;
 }
 
 .booking-section .form-box {
   padding: 10px;
-  background-color: #105424;
+  background-color: #4e1f00;
 }
 
 .booking-form .input,
@@ -173,7 +215,12 @@
   }
 }
 
-/* Photo galery */
+/* About */
+.about-section {
+  background-color: #200e02;
+  color: white;
+}
+
 .about-section .photo {
   background-image: url(../images/cake/cake_11.jpg);
   background-position: center;

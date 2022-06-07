@@ -1,4 +1,8 @@
 /* Contacts footer */
+.footer-section {
+  background-color: #200e02;
+}
+
 .logo-container {
   align-items: center;
   display: flex;
@@ -7,7 +11,8 @@
 }
 
 .contact-footer {
-  background-color: #c7c7c7;
+  background-color: #0e0600;
+  color: white;
 }
 
 .contact-footer a,
@@ -20,7 +25,7 @@
 }
 
 .contact-footer a {
-  color: black;
+  color: white;
   padding: 5px 0px 5px 0px;
   text-decoration: none;
 }
